@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Mono&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Space+Mono:ital,wght@0,700;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,200;1,700&family=Space+Mono&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,200;1,400;1,700&family=Space+Mono&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap');
+
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.space-mono {
+    font-family: 'Space Mono';
+}
+
+.plex-sans {
+    font-family: 'IBM Plex Sans';
+}
+
+.josefin-sans {
+    font-family: 'Josefin Sans';
+
+}
+
+.kumbh-sans {
+    font-family: 'Kumbh Sans';
+    font-weight: 400;
+}
+
+.main-btn {
+    @apply text-2xl border-2 rounded-full p-14
+}
+
+.width900 {
+    font-weight: 800;
+}
